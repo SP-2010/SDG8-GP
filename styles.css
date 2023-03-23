@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;500;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julee&family=Oswald:wght@200;300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&family=Sacramento&display=swap');
+@font-face {
+    font-family: brush;
+    src: url(paintbrush.ttf);
+
+}
+
+*{
+    font-family: Raleway;
+    
+    color: white;  
+    
+}
+
+
+
+
+
+.title-bar{    
+    font-size: 27px;
+    display:flex;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+#tabs{
+   padding-left: 69%;
+   
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+.content{
+    padding-top: 11%;
+    display: block;
+}
+.topic{
+    font-size: 300px;
+    font-family: ;
+    
+}
+
+.title{
+    font-size: 50px;
+    
+}
+#bttn-info{
+    font-size: 15px;
+}
+.survey{
+    font-size: 15px;
+}
+.titlebar-heading{
+    margin-top: 0.20%;
+    font-family: brush;
+
+
+}
+body{
+    background-image: url(4040902.jpeg); 
+    background-color: #173F5F;
+}
+.buttons{
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+.survey:hover{
+    border-radius: 30px;
+    background-color: #173F5F;
+    color: white;
+    padding-bottom: 08px;
+    padding-top: 08px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.info:hover{
+    border-radius: 30px;
+    background-color: #173F5F;
+    color: white;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.poster:hover{
+    border-radius: 30px;
+    background-color: #173F5F;
+    color: white;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.main-info{
+    display: none;
+}
+.poster-content{
+    display: none;
+
+}
+.logo{
+    padding-top: 9%;
+}
+.SDG{
+    padding-left: 20%;
+    padding-right: 20%;
+    font-size: 20px;
+    cursor: pointer;
+}
+#survey{
+    display: none;
+}
+
+.img1,
+.img2{
+    width: 600px;
+    height: 450px;
+    display: inline;
+}
+#imgsrc{
+    padding-right: 30px;
+}
+h2{
+    font-size: 45px;
+}
+.survey-img{
+    width: 900px;
+
+    border-radius: 45px;
+}
